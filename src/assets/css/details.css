@@ -1,0 +1,105 @@
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 70%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.carousel-button:hover {
+    background-color: #555;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .Newclass {
+        width: 850px;
+        column-gap: 50px;
+        padding: 20px;
+        padding-top: 0;
+        /* left: -280px;
+    position: relative; */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Newclass {
+        width: 385px;
+        padding: 10px 0px 20px 18px;
+    }
+    .smPadding {
+        margin-top: 73px;
+        padding-left: 5px;
+    }
+    .smText {
+        font-size: 11px;
+    }
+}
+
+.widthClass {
+    width: 807px !important;
+    height: 400px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sideTable {
+    width: auto;
+    min-height: 390px !important;
+}
+
+.btnClass {
+    background: linear-gradient(45deg, #067b2e, #34ea10);
+}
+
+.gapClass {
+    column-gap: 125px;
+}
+
+.slick-prev:before {
+    left: -8px;
+    position: absolute;
+}
+
+.slick-next:before {
+    right: -10px;
+    position: absolute;
+}
+
+.Detailsheader {
+    background: #F1F9FC;
+}
